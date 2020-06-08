@@ -22,3 +22,6 @@ COPY --from=publish /app/publish .
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet AFBA.EPP.dll
 
 
+
+
+
